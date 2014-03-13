@@ -1,0 +1,109 @@
+#header,
+#header-inner {
+    height: 200px;
+    background-color: lightblue;
+
+}
+
+
+#header-logo {
+    height: 80px;
+    background-color: mediumblue;
+    margin: 30px 400px 0px 400px;
+
+}
+
+#header-name {
+    height: 40px;
+    background-color: navy;
+    margin: 0px 300px 0px 300px;
+
+}
+
+#nav-bar {
+    height: 60px;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -30px;
+}
+
+#nav-section {
+    height: 50px;
+    margin: 0px 150px;
+    padding: 0px 65px;
+}
+
+#nav-list > li {
+    font-size: 1.2em;
+    padding: 10px 30px;
+    margin: 0px;
+    color: white;
+}
+
+#content {
+    height: 690px;
+
+}
+
+#footer {
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#footnote {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 100px;
+}
+
+#jumbotron {
+    background-color: lightpink;
+    border-radius: 5px;
+    margin-top: 40px;
+    height: 290px;
+}
+
+#description {
+    display: inline-block;
+    background-color: red;
+    width: 600px;
+    height: 240px;
+    vertical-align: top;
+    margin: 20px 10px 20px 20px;
+}
+
+#jumbo-logo {
+    display: inline-block;
+    background-color: yellow;
+    width: 300px;
+    margin: 20px 20px 20px 10px;
+    vertical-align: top;
+    height: 240px;
+}
+
+#image {
+    background-color: green;
+    height: 180px;
+    width: 300px;
+}
+
+#button {
+    background-color: gray;
+    height: 60px;
+    width: 300px;
+}
+
+
+.block-section {
+    background-color: blueviolet;
+    height: 250px;
+    padding: 25px;
+    margin: 40px 0px;
+    border-radius: 5px;
+}
+
+
+
+
