@@ -40,20 +40,22 @@ body {
     background-color: #333333;
     border: 1px solid;
     border-radius: 5px;
-    position: relative;
     margin-top: -30px;
 }
 
 #nav-section {
-    height: 50px;
+    height: 60px;
     margin: 0px 150px;
     padding: 0px 65px;
+
 }
 
 #nav-list > li {
     font-size: 1em;
-    padding: 10px 30px;
+    padding: 0px 30px;
     margin: 0px;
+    line-height: 60px;
+    vertical-align: middle;
 }
 
 #nav-list > li > a{
@@ -68,6 +70,7 @@ body {
 
 #content {
     height: 750px;
+    margin: 0px 40px 20px 40px;
 
 }
 
@@ -80,26 +83,28 @@ body {
     vertical-align: middle;
     text-align: center;
     line-height: 100px;
-    color: #cccccc;
+    color: #595959;
+    font-size: .8em;
 }
 
 #jumbotron {
     background-color: #99cccc;
     border-radius: 5px;
     margin-top: 40px;
-    height: 290px;
+    height: 300px;
 }
 
 #description {
     display: inline-block;
-    width: 500px;
+    width: 490px;
     height: 240px;
     vertical-align: top;
     margin: 40px 20px 20px 70px;
 }
 
 #description > p {
-    font-size: 1.5em;
+    font-size: 1.6em;
+    font-weight: lighter;
 }
 
 #description > p > span{
@@ -132,6 +137,7 @@ body {
     line-height: 60px;
     vertical-align: middle;
     color: white;
+    font-weight: lighter;
 }
 
 #jumbo-logo > a > #button:hover {
@@ -143,37 +149,39 @@ body {
     background-color: #444444;
 }
 
-
 .block-section {
     background-color: #666666;
-    height: 300px;
+    height: 320px;
     margin: 40px 0px;
     border-radius: 5px;
     color: white;
     text-align: center;
+    width: 300px;
 }
 
 .upper-block {
     width: 300px;
     height: 70px;
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #555555;
     line-height: 50px;
     vertical-align: middle;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     padding-top: 10px;
 
 }
 
 .upper-block > span {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.4em;
 }
 
 .middle-block {
     height: 120px;
+    padding-top: 30px;
+    border-top: 1px solid #777777;
 }
 
 .lower-block {
+    padding-top: 30px;
     margin: 20px 35px 10px 35px;
 }
 
@@ -197,12 +205,12 @@ body {
     background-color: white;
     height: 10px;
     margin: 0px 35px;
-    border: 1px solid black;
+    border: 1px solid #555555;
 }
 
 .upper-third-block {
     height: 120px;
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #555555;
 }
 
 .upper-third-block > p {
@@ -213,13 +221,14 @@ body {
 
 .upper-third-block > span,
 .middle-third-block > span {
-    font-size: 3em;
+    font-size: 2.7em;
     font-weight: lighter;
 }
 
 .middle-third-block {
     height: 120px;
-    border-bottom: 1px solid #777777;
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #555555;
 }
 
 .middle-third-block > p {
@@ -230,6 +239,7 @@ body {
 .lower-third-block {
     vertical-align: middle;
     line-height: 60px;
+    border-top: 1px solid #777777;
 }
 
 .lower-third-block:hover{
@@ -240,7 +250,8 @@ body {
 
 .lower-third-block > span {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    font-weight: lighter;
 }
 
 .lower-third-block > img {
