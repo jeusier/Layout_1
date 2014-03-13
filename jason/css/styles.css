@@ -59,7 +59,7 @@
 
 
 #content {
-    height: 690px;
+    height: 750px;
 
 }
 
@@ -120,27 +120,61 @@
     width: 300px;
 }
 
+.block-link > .block-section:hover {
+    background-color: #444444;
+}
+
 
 .block-section {
     background-color: #666666;
-    height: 250px;
+    height: 300px;
     margin: 40px 0px;
     border-radius: 5px;
+    color: white;
 }
 
 .upper-block {
     width: 300px;
-    height: 50px;
+    height: 70px;
     border-bottom: 1px solid #777777;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
+    margin-bottom: 20px;
 
 }
 
 .upper-block > span {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.middle-block {
+    height: 120px;
+}
+
+.lower-block {
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.cost {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: bottom;
+}
+
+.cost > span {
+    font-size: 4em;
+}
+
+.middle-border {
+    background-color: white;
+    height: 10px;
+    margin: 0px 35px;
+    border: 1px solid black;
 }
 
 
