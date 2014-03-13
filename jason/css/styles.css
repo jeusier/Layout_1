@@ -1,28 +1,35 @@
-#header,
-#header-inner {
+#header {
     height: 200px;
-    background-color: lightblue;
+    background-color: #99cccc;
+    background-image: url('../../Assets/header_bg.png');
+    background-repeat: repeat;
 
 }
 
 
 #header-logo {
     height: 80px;
-    background-color: mediumblue;
-    margin: 30px 400px 0px 400px;
+    background-image: url('../../Assets/logo.png');
+    background-repeat: no-repeat;
+    margin: 30px 42% 0px 42%;
 
 }
 
 #header-name {
     height: 40px;
-    background-color: navy;
-    margin: 0px 300px 0px 300px;
+    margin: 0px 250px 0px 250px;
+    font-size: 1.6em;
 
 }
 
+#header-name > span {
+    font-weight: bold;
+}
+
+
 #nav-bar {
     height: 60px;
-    background-color: black;
+    background-color: #333333;
     border: 1px solid;
     border-radius: 5px;
     position: relative;
@@ -59,7 +66,7 @@
 }
 
 #jumbotron {
-    background-color: lightpink;
+    background-color: #99cccc;
     border-radius: 5px;
     margin-top: 40px;
     height: 290px;
@@ -67,26 +74,35 @@
 
 #description {
     display: inline-block;
-    background-color: red;
-    width: 600px;
+    width: 500px;
     height: 240px;
     vertical-align: top;
-    margin: 20px 10px 20px 20px;
+    margin: 40px 20px 20px 70px;
+}
+
+#description > p {
+    font-size: 1.5em;
+}
+
+#description > p > span{
+    font-weight: bold;
 }
 
 #jumbo-logo {
     display: inline-block;
-    background-color: yellow;
     width: 300px;
-    margin: 20px 20px 20px 10px;
+    margin: 20px 20px 20px 20px;
     vertical-align: top;
     height: 240px;
 }
 
 #image {
-    background-color: green;
-    height: 180px;
-    width: 300px;
+    background-image: url('../../Assets/ship.png');
+    background-repeat: no-repeat;
+    height: 170px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+
 }
 
 #button {
@@ -97,7 +113,7 @@
 
 
 .block-section {
-    background-color: blueviolet;
+    background-color: #666666;
     height: 250px;
     padding: 25px;
     margin: 40px 0px;
