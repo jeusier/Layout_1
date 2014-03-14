@@ -5,10 +5,12 @@ html {
 body {
     font-family: 'Open Sans', sans-serif !important;
     height: 100%;
+    background-color: #333333;
 }
 
 #container {
-    min-height: 80%;
+    height: 950px;
+    background-color: white;
 }
 
 
@@ -90,15 +92,14 @@ body {
 
 
 #footer {
-    height: 20%;
-    background-color: #333333;
+    height: 100px;
     border-top: 1px solid black;
 }
 
 #footnote {
-    vertical-align: middle;
+    vertical-align: bottom;
     text-align: center;
-    line-height: 100px;
+    margin-top: 2em;
     color: #595959;
     font-size: .8em;
 }
@@ -187,7 +188,7 @@ body {
     border-radius: 7px;
     color: white;
     text-align: center;
-    width: 290px;
+    width: 300px;
     font-family: 'Open Sans', sans-serif !important;
 }
 
