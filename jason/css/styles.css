@@ -39,6 +39,155 @@ body {
     font-weight: bold;
 }
 
+#nav-bar {
+    height: 65px;
+    background-color: #333333;
+    border: 1px solid;
+    border-radius: 7px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+#nav-section {
+    height: 60px;
+    width: 550px;
+    text-align: center;
+    display: inline-block;
+}
+
+#nav-list {
+    text-align: right;
+    width: 550px;
+    margin: auto !important;
+    display: inline-block;
+}
+
+#nav-list > li {
+    padding: 0px 20px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+#nav-list > li > a{
+    color: #99cccc;
+}
+
+#nav-list > li > a:hover{
+    color: white;
+}
+
+#footer {
+    height: 100px;
+    border-top: 1px solid black;
+}
+
+#footnote {
+    vertical-align: bottom;
+    text-align: center;
+    margin-top: 2em;
+    color: #595959;
+    font-size: .8em;
+}
+
+#jumbotron {
+    background-color: #99cccc;
+}
+
+#description {
+    vertical-align: top;
+}
+
+#description > p {
+    font-weight: lighter;
+    font-color: #333333;
+}
+
+#description > p > span{
+    font-weight: 600;
+}
+
+#image {
+    background-image: url('../../Assets/ship.png');
+    background-repeat: no-repeat;
+}
+
+#button {
+    background-color: #666666;
+    border-bottom: 6px solid #333333;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-weight: lighter;
+}
+
+#button {
+    transition:background-color 1s;
+}
+
+#button:hover {
+    background-color: #444444;
+    border-bottom-color: #222222;
+    color: #cccccc;
+}
+
+.block-link > .block-section {
+    transition:background-color 1s;
+}
+
+.block-link > .block-section:hover {
+    background-color: #444444;
+}
+
+.block-section {
+    background-color: #666666;
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    border-radius: 7px;
+}
+
+.upper-block {
+    border-bottom: 1px solid #555555;
+    vertical-align: middle;
+}
+
+.middle-block {
+    border-top: 1px solid #777777;
+}
+
+.lower-block > p {
+    font-weight: lighter;
+}
+
+.cost {
+    height: 100px;
+    text-align: center;
+}
+
+.cost > span {
+    font-size: 4em;
+    font-weight: lighter;
+    line-height: 100px;
+    vertical-align: bottom;
+}
+
+.middle-border {
+    background-color: white;
+    border: 1px solid #555555;
+}
+
+.lower-third-block {
+    vertical-align: middle;
+}
+
+.lower-third-block > span {
+    color: white;
+}
+
+.lower-third-block > img {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 1.3em;
+}
 
 /* Large up */
 @media only screen and (min-width: 64.063em) {
@@ -57,68 +206,12 @@ body {
         font-size: 1.7em;
     }
 
-    #nav-bar {
-        height: 65px;
-        background-color: #333333;
-        border: 1px solid;
-        border-radius: 7px;
-        margin-top: -30px;
-        text-align: center;
-    }
-
-    #nav-section {
-        height: 60px;
-        width: 550px;
-        text-align: center;
-        display: inline-block;
-    }
-
-    #nav-list {
-        text-align: right;
-        width: 550px;
-        margin: auto !important;
-        display: inline-block;
-    }
-
-
-    #nav-list > li {
-        padding: 0px 20px;
-        line-height: 60px;
-        vertical-align: middle;
-    }
-
-    #nav-list > li > a{
-        color: #99cccc;
-    }
-
-
-    #nav-list > li > a:hover{
-        color: white;
-    }
-
-
     #content {
         height: 750px;
         margin: 0px 40px 0px 40px;
-
-    }
-
-
-    #footer {
-        height: 100px;
-        border-top: 1px solid black;
-    }
-
-    #footnote {
-        vertical-align: bottom;
-        text-align: center;
-        margin-top: 2em;
-        color: #595959;
-        font-size: .8em;
     }
 
     #jumbotron {
-        background-color: #99cccc;
         border-radius: 7px;
         margin-top: 45px;
         height: 320px;
@@ -128,20 +221,13 @@ body {
         display: inline-block;
         width: 530px;
         height: 240px;
-        vertical-align: top;
         margin: 40px 20px 40px 60px;
     }
 
     #description > p {
         font-size: 1.75em;
-        font-weight: lighter;
-        font-color: #333333;
         line-height: 40px;
         margin-top: 20px;
-    }
-
-    #description > p > span{
-        font-weight: 600;
     }
 
     #jumbo-logo {
@@ -153,8 +239,6 @@ body {
     }
 
     #image {
-        background-image: url('../../Assets/ship.png');
-        background-repeat: no-repeat;
         background-size: 240px;
         height: 170px;
         margin-top: -60px;
@@ -166,55 +250,26 @@ body {
     }
 
     #button {
-        background-color: #666666;
         height: 60px;
         width: 240px;
-        border-bottom: 6px solid #333333;
-        text-align: center;
         line-height: 60px;
-        vertical-align: middle;
-        color: white;
-        font-weight: lighter;
     }
 
     #button > span {
         font-size: 1em;
     }
 
-    #jumbo-logo > a > #button {
-        transition:background-color 1s;
-    }
-
-    #jumbo-logo > a > #button:hover {
-        background-color: #444444;
-        border-bottom-color: #222222;
-        color: #cccccc;
-    }
-
-    .block-link > .block-section {
-        transition:background-color 1s;
-    }
-    .block-link > .block-section:hover {
-        background-color: #444444;
-    }
-
     .block-section {
-        background-color: #666666;
         height: 300px;
         margin: 40px 0px;
-        border-radius: 7px;
-        color: white;
         text-align: center;
         width: 300px;
-        font-family: 'Open Sans', sans-serif !important;
     }
 
     .upper-block {
         width: 280px;
         height: 70px;
-        border-bottom: 1px solid #555555;
         line-height: 50px;
-        vertical-align: middle;
         padding-bottom: 20px;
         padding-top: 10px;
 
@@ -227,7 +282,6 @@ body {
     .middle-block {
         height: 120px;
         padding-top: 20px;
-        border-top: 1px solid #777777;
     }
 
     .lower-block {
@@ -237,25 +291,11 @@ body {
 
     .lower-block > p {
         font-size: .9em;
-        font-weight: lighter;
-    }
-
-    .cost {
-        height: 100px;
-    }
-
-    .cost > span {
-        font-size: 4em;
-        font-weight: lighter;
-        line-height: 100px;
-        vertical-align: bottom;
     }
 
     .middle-border {
-        background-color: white;
         height: 10px;
         margin: 0px 30px;
-        border: 1px solid #555555;
     }
 
     .upper-third-block {
@@ -287,7 +327,6 @@ body {
     }
 
     .lower-third-block {
-        vertical-align: middle;
         line-height: 60px;
         height: 60px;
         border-top: 1px solid #777777;
@@ -301,16 +340,12 @@ body {
     }
 
     .lower-third-block > span {
-        color: white;
         font-size: 1.4em;
         font-weight: lighter;
     }
 
     .lower-third-block > img {
         font-size: 1.5em;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        height: 1.3em;
     }
 
 }
@@ -331,68 +366,12 @@ body {
         font-size: 1.5em;
     }
 
-    #nav-bar {
-        height: 65px;
-        background-color: #333333;
-        border: 1px solid;
-        border-radius: 7px;
-        margin-top: -30px;
-        text-align: center;
-    }
-
-    #nav-section {
-        height: 60px;
-        width: 550px;
-        text-align: center;
-        display: inline-block;
-    }
-
-    #nav-list {
-        text-align: right;
-        width: 550px;
-        margin: auto !important;
-        display: inline-block;
-    }
-
-
-    #nav-list > li {
-        padding: 0px 20px;
-        line-height: 60px;
-        vertical-align: middle;
-    }
-
-    #nav-list > li > a{
-        color: #99cccc;
-    }
-
-
-    #nav-list > li > a:hover{
-        color: white;
-    }
-
-
     #content {
         height: 1160px;
         margin: 0px 40px 0px 40px;
-
-    }
-
-
-    #footer {
-        height: 100px;
-        border-top: 1px solid black;
-    }
-
-    #footnote {
-        vertical-align: bottom;
-        text-align: center;
-        margin-top: 2em;
-        color: #595959;
-        font-size: .8em;
     }
 
     #jumbotron {
-        background-color: #99cccc;
         border-radius: 7px;
         margin-top: 45px;
         height: 525px;
@@ -402,26 +381,16 @@ body {
         width: 80%;
         height: 15%;
         text-align: center;
-        vertical-align: top;
         margin: auto;
     }
 
     #description > p {
         font-size: 2em;
-        font-weight: lighter;
-        font-color: #333333;
         line-height: 43px;
         margin-top: 20px;
     }
 
-    #description > p > span{
-        font-weight: 600;
-    }
-
-
     #image {
-        background-image: url('../../Assets/ship.png');
-        background-repeat: no-repeat;
         background-size: 280px;
         height: 175px;
         width: 280px;
@@ -432,15 +401,9 @@ body {
     }
 
     #button {
-        background-color: #666666;
         height: 70px;
         width: 300px;
-        border-bottom: 6px solid #333333;
-        text-align: center;
         line-height: 70px;
-        vertical-align: middle;
-        color: white;
-        font-weight: lighter;
         margin-right: auto;
         margin-left: auto;
     }
@@ -449,30 +412,9 @@ body {
         font-size: 1.2em;
     }
 
-    #button {
-        transition:background-color 1s;
-    }
-
-    #button:hover {
-        background-color: #444444;
-        border-bottom-color: #222222;
-        color: #cccccc;
-    }
-
-    .block-link > .block-section {
-        transition:background-color 1s;
-    }
-    .block-link > .block-section:hover {
-        background-color: #444444;
-    }
-
     .block-section {
-        background-color: #666666;
         height: 220px;
         margin: 40px 0px 0px 0px;
-        border-radius: 7px;
-        color: white;
-        font-family: 'Open Sans', sans-serif !important;
     }
 
 
@@ -507,66 +449,9 @@ body {
         margin-top: 1em;
     }
 
-    .middle-block {
-        height: 120px;
-        padding-top: 20px;
-        border-top: 1px solid #777777;
-    }
-
-    .lower-block {
-        padding-top: 20px;
-        margin: 20px 35px 10px 35px;
-    }
-
-    .lower-block > p {
-        font-size: .9em;
-        font-weight: lighter;
-    }
-
-    .cost {
-        height: 100px;
-    }
-
-    .cost > span {
-        font-size: 4.4em;
-        font-weight: lighter;
-        line-height: 100px;
-        vertical-align: bottom;
-    }
-
     .middle-border {
-        background-color: white;
         height: 12px;
         margin: 0px 19%;
-        border: 1px solid #555555;
-    }
-
-    .upper-third-block {
-        height: 120px;
-        border-bottom: 1px solid #555555;
-    }
-
-    .upper-third-block > p {
-        padding-top: 20px;
-        margin-bottom: 0px;
-        font-size: .9em;
-    }
-
-    .upper-third-block > span,
-    .middle-third-block > span {
-        font-size: 2.7em;
-        font-weight: lighter;
-    }
-
-    .middle-third-block {
-        height: 120px;
-        border-top: 1px solid #777777;
-        border-bottom: 1px solid #555555;
-    }
-
-    .middle-third-block > p {
-        padding-top: 20px;
-        margin-bottom: 0px;
     }
 
     .lower-third-block {
@@ -578,18 +463,13 @@ body {
         width: 210px;
     }
 
-
     .lower-third-block > span {
-        color: white;
         font-size: 1.5em;
         padding-right: 15px;
     }
 
     .lower-third-block > img {
         font-size: 2em;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        height: 1.3em;
     }
 
     #more-deals {
@@ -644,25 +524,14 @@ body {
 
 
     #content {
-        height: 1160px;
+        height: 1625px;
     }
 
     #small-content {
         padding: 0px;
     }
 
-
-    #footer {
-        height: 100px;
-        border-top: 1px solid black;
-    }
-
     #footnote {
-        vertical-align: bottom;
-        text-align: center;
-        margin-top: 2em;
-        color: #595959;
-        font-size: .8em;
         width: 300px;
         margin-right: auto;
         margin-left: auto;
@@ -670,7 +539,6 @@ body {
 
     #jumbotron {
         padding-top: 60px;
-        background-color: #99cccc;
         height: 700px;
     }
 
@@ -678,26 +546,16 @@ body {
         width: 78%;
         height: 15%;
         text-align: center;
-        vertical-align: top;
         margin: auto;
     }
 
     #description > p {
         font-size: 1.95em;
-        font-weight: lighter;
-        font-color: #333333;
         line-height: 40px;
         margin-top: 50px;
     }
 
-    #description > p > span{
-        font-weight: 600;
-    }
-
-
     #image {
-        background-image: url('../../Assets/ship.png');
-        background-repeat: no-repeat;
         background-size: 290px;
         height: 175px;
         width: 290px;
@@ -708,15 +566,9 @@ body {
     }
 
     #button {
-        background-color: #666666;
         height: 70px;
         width: 79%;
-        border-bottom: 6px solid #333333;
-        text-align: center;
         line-height: 70px;
-        vertical-align: middle;
-        color: white;
-        font-weight: lighter;
         margin-right: auto;
         margin-left: auto;
         margin-top: 30px;
@@ -726,42 +578,18 @@ body {
         font-size: 1.2em;
     }
 
-    #button {
-        transition:background-color 1s;
-    }
-
-    #button:hover {
-        background-color: #444444;
-        border-bottom-color: #222222;
-        color: #cccccc;
-    }
-
-    .block-link > .block-section {
-        transition:background-color 1s;
-    }
-    .block-link > .block-section:hover {
-        background-color: #444444;
-    }
-
     .block-section {
-        background-color: #666666;
         width: 84%;
         height: 350px;
         margin: 60px 9% 0px 9%;
-        border-radius: 7px;
-        color: white;
-        font-family: 'Open Sans', sans-serif !important;
     }
 
     .upper-block {
         width: 100%;
         height: 75px;
-        border-bottom: 1px solid #555555;
         line-height: 75px;
-        vertical-align: middle;
         text-align: center;
         margin: 0px;
-
     }
 
     .upper-block > span {
@@ -771,7 +599,6 @@ body {
     .middle-block {
         height: 170px;
         padding-top: 30px;
-        border-top: 1px solid #777777;
     }
 
     .lower-block {
@@ -782,60 +609,16 @@ body {
 
     .lower-block > p {
         font-size: 1em;
-        font-weight: lighter;
         margin-right: 25%;
         margin-left: 25%;
     }
 
-    .cost {
-        height: 100px;
-        text-align: center;
-    }
-
-    .cost > span {
-        font-size: 4.4em;
-        font-weight: lighter;
-        line-height: 100px;
-        vertical-align: bottom;
-    }
-
     .middle-border {
-        background-color: white;
         height: 12px;
-        margin: 0px 26%;
-        border: 1px solid #555555;
-    }
-
-    .upper-third-block {
-        height: 120px;
-        border-bottom: 1px solid #555555;
-    }
-
-    .upper-third-block > p {
-        padding-top: 20px;
-        margin-bottom: 0px;
-        font-size: .9em;
-    }
-
-    .upper-third-block > span,
-    .middle-third-block > span {
-        font-size: 2.7em;
-        font-weight: lighter;
-    }
-
-    .middle-third-block {
-        height: 120px;
-        border-top: 1px solid #777777;
-        border-bottom: 1px solid #555555;
-    }
-
-    .middle-third-block > p {
-        padding-top: 20px;
-        margin-bottom: 0px;
+        margin: 0px 26%;;
     }
 
     .lower-third-block {
-        vertical-align: middle;
         line-height: 85px;
         height: 85px;
         margin-right: auto;
@@ -845,16 +628,12 @@ body {
 
 
     .lower-third-block > span {
-        color: white;
         font-size: 1.5em;
         padding-right: 15px;
     }
 
     .lower-third-block > img {
         font-size: 2em;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        height: 1.3em;
     }
 
     #more-deals {
