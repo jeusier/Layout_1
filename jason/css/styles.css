@@ -594,7 +594,7 @@ body {
 
     #more-deals {
         height: 100px;
-        background-color: #93CDCC;
+        background-color: #99cccc;
     }
 
 }
@@ -602,46 +602,44 @@ body {
 /* Small down */
 @media only screen and (max-width: 40em) {
     #container {
-        height: 1580px;
+        height: 1625px;
     }
 
-    #nav-bar {
-        height: 65px;
-        background-color: #333333;
-        border: 1px solid;
-        border-radius: 7px;
-        margin-top: -30px;
-        text-align: center;
+    #nav-logo {
+        margin: 10px 5px 10px 20px;
+        height: 25px;
+        background-image: url(../Assets/logo.png);
     }
 
-    #nav-section {
-        height: 60px;
-        width: 550px;
-        text-align: center;
-        display: inline-block;
+    .name {
+        color: #99cccc;
+        font-weight: lighter;
+        border-top: 4px solid #99cccc;
     }
 
-    #nav-list {
-        text-align: right;
-        width: 550px;
-        margin: auto !important;
-        display: inline-block;
-    }
-
-
-    #nav-list > li {
-        padding: 0px 20px;
-        line-height: 60px;
+    .name > span {
+        font-weight: lighter;
+        font-size: 1.5em;
+        line-height: 40px;
         vertical-align: middle;
     }
 
-    #nav-list > li > a{
-        color: #99cccc;
+    .name > span > #star {
+        font-weight: 600;
     }
 
+    #toggle-icon {
+        height: 30px;
+        margin-right: 10px;
+    }
 
-    #nav-list > li > a:hover{
-        color: white;
+    .left > li {
+        border-top: 1px solid #99cccc;
+    }
+
+    .left > li > a {
+        color: #99cccc !important;
+        font-size: 1em !important;
     }
 
 
@@ -665,9 +663,13 @@ body {
         margin-top: 2em;
         color: #595959;
         font-size: .8em;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #jumbotron {
+        padding-top: 60px;
         background-color: #99cccc;
         height: 700px;
     }
@@ -681,11 +683,11 @@ body {
     }
 
     #description > p {
-        font-size: 2em;
+        font-size: 1.95em;
         font-weight: lighter;
         font-color: #333333;
-        line-height: 43px;
-        margin-top: 20px;
+        line-height: 40px;
+        margin-top: 50px;
     }
 
     #description > p > span{
@@ -696,9 +698,9 @@ body {
     #image {
         background-image: url('../../Assets/ship.png');
         background-repeat: no-repeat;
-        background-size: 280px;
+        background-size: 290px;
         height: 175px;
-        width: 280px;
+        width: 290px;
         margin-left: auto;
         margin-right: auto;
         margin-top: -7px;
@@ -708,7 +710,7 @@ body {
     #button {
         background-color: #666666;
         height: 70px;
-        width: 480px;
+        width: 79%;
         border-bottom: 6px solid #333333;
         text-align: center;
         line-height: 70px;
@@ -717,6 +719,7 @@ body {
         font-weight: lighter;
         margin-right: auto;
         margin-left: auto;
+        margin-top: 30px;
     }
 
     #button > span {
@@ -742,16 +745,16 @@ body {
 
     .block-section {
         background-color: #666666;
-        width: 520px;
+        width: 84%;
         height: 350px;
-        margin: 60px 60px 0px 60px;
+        margin: 60px 9% 0px 9%;
         border-radius: 7px;
         color: white;
         font-family: 'Open Sans', sans-serif !important;
     }
 
     .upper-block {
-        width: 520px;
+        width: 100%;
         height: 75px;
         border-bottom: 1px solid #555555;
         line-height: 75px;
@@ -833,8 +836,8 @@ body {
 
     .lower-third-block {
         vertical-align: middle;
-        line-height: 100px;
-        height: 100px;
+        line-height: 85px;
+        height: 85px;
         margin-right: auto;
         margin-left: auto;
         width: 210px;
@@ -855,8 +858,8 @@ body {
     }
 
     #more-deals {
-        height: 100px;
-        background-color: #93CDCC;
+        height: 85px;
+        background-color: #99cccc;
     }
 
 
